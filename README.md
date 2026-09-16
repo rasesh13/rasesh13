@@ -105,9 +105,9 @@ I am a full-stack developer focused on building **AI-powered products**, **scala
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rasesh13/rasesh13/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rasesh13/rasesh13/output/github-contribution-grid-snake.svg" />
-  <img width="98%" alt="Animated contribution snake" src="https://raw.githubusercontent.com/rasesh13/rasesh13/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rasesh13/rasesh13/gh-pages/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rasesh13/rasesh13/gh-pages/github-contribution-grid-snake.svg" />
+  <img width="98%" alt="Animated contribution snake" src="https://raw.githubusercontent.com/rasesh13/rasesh13/gh-pages/github-contribution-grid-snake.svg" />
 </picture>
 
 <sub>The snake redraws automatically every day from live contribution data.</sub>
