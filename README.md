@@ -6,6 +6,8 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2800&pause=900&color=00D9FF&center=true&vCenter=true&width=760&lines=Building+products+that+feel+effortless;Engineering+systems+that+scale;Turning+AI+ideas+into+real+experiences;Always+learning.+Always+shipping." alt="Animated typing introduction" />
 </a>
 
+<img width="92%" src="https://raw.githubusercontent.com/rasesh13/rasesh13/main/assets/developer-orbit.svg" alt="Animated developer orbit" />
+
 <p>
   <a href="https://github.com/rasesh13?tab=followers"><img src="https://img.shields.io/github/followers/rasesh13?style=for-the-badge&logo=github&label=Followers&color=7F00FF" alt="GitHub followers" /></a>
   <a href="https://github.com/rasesh13"><img src="https://komarev.com/ghpvc/?username=rasesh13&style=for-the-badge&color=00C9FF" alt="Profile views" /></a>
@@ -29,6 +31,25 @@ I am a full-stack developer focused on building **AI-powered products**, **scala
 <img src="https://skillicons.dev/icons?i=ts,js,python,react,nextjs,nodejs,fastapi,postgres,redis,tailwind,git,github,vercel&perline=7" alt="TypeScript, JavaScript, Python, React, Next.js, Node.js, FastAPI, PostgreSQL, Redis, Tailwind CSS, Git, GitHub, and Vercel" />
 
 </div>
+
+## Mission control
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <h3>🧠 THINK</h3>
+      <p>Product strategy<br/>System design<br/>AI-first workflows</p>
+    </td>
+    <td align="center" width="33%">
+      <h3>⚡ BUILD</h3>
+      <p>Full-stack products<br/>Scalable APIs<br/>Delightful interfaces</p>
+    </td>
+    <td align="center" width="33%">
+      <h3>🚀 SHIP</h3>
+      <p>Production quality<br/>Fast feedback loops<br/>Continuous improvement</p>
+    </td>
+  </tr>
+</table>
 
 ## Featured builds
 
@@ -70,10 +91,26 @@ I am a full-stack developer focused on building **AI-powered products**, **scala
 
 <div align="center">
 
+<img width="98%" src="https://github-profile-trophy.vercel.app/?username=rasesh13&theme=tokyonight&no-frame=true&no-bg=true&margin-w=12&margin-h=12&column=7" alt="Rasesh's GitHub trophies" />
+
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=rasesh13&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github&include_all_commits=true" alt="Rasesh's GitHub statistics" />
 <img width="49%" src="https://streak-stats.demolab.com?user=rasesh13&theme=tokyonight&hide_border=true" alt="Rasesh's GitHub contribution streak" />
 
 <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=rasesh13&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Velocity" alt="Rasesh's animated contribution graph" />
+
+</div>
+
+## Contribution arcade
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rasesh13/rasesh13/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rasesh13/rasesh13/output/github-contribution-grid-snake.svg" />
+  <img width="98%" alt="Animated contribution snake" src="https://raw.githubusercontent.com/rasesh13/rasesh13/output/github-contribution-grid-snake.svg" />
+</picture>
+
+<sub>The snake redraws automatically every day from live contribution data.</sub>
 
 </div>
 

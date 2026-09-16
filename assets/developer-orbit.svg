@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280" role="img" aria-labelledby="title desc">
+  <title id="title">Rasesh Varshney developer orbit</title>
+  <desc id="desc">Animated neon visualization of ideas moving from code to production.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b18"/>
+      <stop offset="0.52" stop-color="#10142b"/>
+      <stop offset="1" stop-color="#070b18"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00d9ff"/>
+      <stop offset="0.5" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#ff2d95"/>
+    </linearGradient>
+    <radialGradient id="core">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.18" stop-color="#00d9ff"/>
+      <stop offset="0.55" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#111827"/>
+    </radialGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <path id="orbit-a" d="M250 140a250 86 0 1 0 500 0a250 86 0 1 0-500 0"/>
+    <path id="orbit-b" d="M332 50a205 108 28 1 0 336 180a205 108 28 1 0-336-180"/>
+  </defs>
+
+  <rect x="3" y="3" width="994" height="274" rx="24" fill="url(#bg)" stroke="url(#line)" stroke-width="2"/>
+  <g fill="#ffffff">
+    <circle cx="92" cy="58" r="2"><animate attributeName="opacity" values=".15;1;.15" dur="2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="180" cy="214" r="1.5"><animate attributeName="opacity" values="1;.12;1" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="824" cy="72" r="2"><animate attributeName="opacity" values=".2;1;.2" dur="1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="912" cy="218" r="1.5"><animate attributeName="opacity" values="1;.1;1" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="728" cy="222" r="1"><animate attributeName="opacity" values=".1;.9;.1" dur="3.2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g fill="none" stroke="url(#line)" stroke-width="1.4" opacity=".58">
+    <ellipse cx="500" cy="140" rx="250" ry="86" stroke-dasharray="9 9">
+      <animateTransform attributeName="transform" type="rotate" from="0 500 140" to="360 500 140" dur="24s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="500" cy="140" rx="205" ry="108" stroke-dasharray="4 12" transform="rotate(28 500 140)">
+      <animateTransform attributeName="transform" type="rotate" from="28 500 140" to="-332 500 140" dur="30s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <circle cx="500" cy="140" r="59" fill="url(#core)" filter="url(#glow)">
+    <animate attributeName="r" values="57;62;57" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="500" cy="140" r="70" fill="none" stroke="#00d9ff" stroke-width="1" opacity=".45">
+    <animate attributeName="r" values="67;80;67" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".55;.08;.55" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <g font-family="JetBrains Mono,Consolas,monospace" text-anchor="middle" fill="#ffffff">
+    <text x="500" y="138" font-size="42" font-weight="800">&lt;R/&gt;</text>
+    <text x="500" y="166" font-size="11" letter-spacing="4" fill="#b8f7ff">BUILD • SHIP • SCALE</text>
+  </g>
+
+  <g filter="url(#glow)">
+    <circle r="8" fill="#00d9ff"><animateMotion dur="7s" repeatCount="indefinite"><mpath href="#orbit-a"/></animateMotion></circle>
+    <circle r="7" fill="#ff2d95"><animateMotion dur="9s" begin="-3s" repeatCount="indefinite"><mpath href="#orbit-a"/></animateMotion></circle>
+    <circle r="6" fill="#a78bfa"><animateMotion dur="8s" begin="-5s" repeatCount="indefinite"><mpath href="#orbit-b"/></animateMotion></circle>
+  </g>
+
+  <g font-family="JetBrains Mono,Consolas,monospace" font-size="13" fill="#cbd5e1">
+    <text x="70" y="126">const idea = "ambitious";</text>
+    <text x="70" y="150" fill="#00d9ff">while (learning) ship();</text>
+    <text x="748" y="126">status: PRODUCTION</text>
+    <text x="748" y="150" fill="#ff5aaf">impact: SCALING ↑</text>
+    <rect x="916" y="139" width="8" height="15" fill="#ff5aaf"><animate attributeName="opacity" values="1;0;1" dur=".9s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>
