@@ -91,12 +91,12 @@ I am a full-stack developer focused on building **AI-powered products**, **scala
 
 <div align="center">
 
-<img width="98%" src="https://github-profile-trophy.vercel.app/?username=rasesh13&theme=tokyonight&no-frame=true&no-bg=true&margin-w=12&margin-h=12&column=7" alt="Rasesh's GitHub trophies" />
+<img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rasesh13&theme=tokyonight" alt="Rasesh's contribution profile" />
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=rasesh13&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github&include_all_commits=true" alt="Rasesh's GitHub statistics" />
-<img width="49%" src="https://streak-stats.demolab.com?user=rasesh13&theme=tokyonight&hide_border=true" alt="Rasesh's GitHub contribution streak" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=rasesh13&theme=tokyonight" alt="Rasesh's GitHub statistics" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=rasesh13&theme=tokyonight" alt="Rasesh's top repository languages" />
 
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=rasesh13&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Velocity" alt="Rasesh's animated contribution graph" />
+<img width="72%" src="https://streak-stats.demolab.com?user=rasesh13&theme=tokyonight&hide_border=true" alt="Rasesh's GitHub contribution streak" />
 
 </div>
 
